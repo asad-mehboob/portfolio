@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/home/AsadMehboob.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box
+      }
+
+      .logo {
+        border-radius: 25%;
+        height: 40px;
+      }
+
+    body {
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .btn{
+            background: linear-gradient(45deg, #007bff, #6f42c1);
+            color: white;
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #28a745, #ffc107);
+        }
+
+
+
+    .gradient-text, h2 {
+      cursor: pointer;
+      background: linear-gradient(45deg, #007bff, #6f42c1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gradient-text:hover{
+      background: linear-gradient(45deg, #28a745, #ffc145);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2:hover{
+      background: linear-gradient(45deg, #28a745, #ffc145);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+
+    .gradient-text {
+      font-weight: 700;
+      font-size: 4rem;
+      padding: 10px;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    li {
+      margin-top: 5px;
+      list-style-type: none;
+    }
+
+    section {
+    margin: 20px 0;
+    }
+
+    li a {
+      text-decoration: underline;
+
+    }
+
+    p a{
+      text-decoration: none;
+
+    }
+
+    li a {
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .gradient-text{
+        font-size: 2.5rem;
+      }
+    }
+
+</style>
+</head>
+<body>    
+     
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <div class="container px-5">
+      
+        <a class="navbar-brand" href="index.html"><img class="logo me-2" src="assets/images/home/AsadMehboob.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Skils</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Resume -->
+<div class="container">
+    <div class="intro">
+        <h1 class="gradient-text">Asad Mehboob</h1>
+        <a class="btn btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://drive.google.com/file/d/16xEPwpcnh_IebkY9DQEgwDKwB0RW3CtL/view?usp=drivesdk" download="myCV.pdf">Download CV</a>
+      </div>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>
+            I am a motivated and enthusiastic beginner in web development with a strong foundation in HTML, CSS, and JavaScript. 
+            After completing my matric, I started my journey into the world of web development, eager to expand my skills and contribute to meaningful projects. 
+            I am committed to learning and growing as a developer and am excited to gain hands-on experience and collaborate with others in the field.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Bootstrap & Tailwind</li>
+            <li>JavaScript</li>
+            <li>jQuery & React.js</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control</li>
+            <li>Problem-solving and Learning Ability</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>
+            <strong>Matric</strong> <br>
+            Govt High School - 2021-2022
+        </p>
+    </section>
+
+    <section>
+      <h2>Interest</h2>
+      <ul>
+        <li>Programming</li>
+        <li>Digital Marketing</li>
+        <li>Martail art</li>
+      </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Currently, I am working on small projects to practice my skills, including:</p>
+        <p>Click Here to See <a href="https://asad-mehboob.github.io/html-portfolio/">HTML</a> Project</p>
+        <p>Click Here to See <a href="https://asad-mehboob.github.io/myResume/">CSS</a> Project</p>
+    </section>
+
+</div>
+
+<!-- Footer -->
+ <div class="container">
+<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+  <p>© 2024 Asad Mehboob. All rights reserved.</p>
+  <ul class="list-unstyled d-flex">
+    <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/people/Ans-Mujahid/61561227722054/"><img src="assets/images/home/facebook.svg" alt="facebook"></a></li>
+    <li class="ms-3"><a class="link-body-emphasis" href="https://wa.me/923194947017"><img src="assets/images/home/whatsapp.svg" alt="whatsapp"></a></li>
+    <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/@AnsMujahid"><img src="assets/images/home/youtube.svg" alt="youtube"></a></li>
+  </ul>
+</div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
